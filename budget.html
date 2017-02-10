@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../bootstrap_v3/docs-assets/ico/favicon.png">
+
+    <title>Budget price project generator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap-map-js -->
+    <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.13/esri/css/esri.css">   
+
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bootstrap_v3/docs-assets/js/html5shiv.js"></script>
+      <script src="../bootstrap_v3/docs-assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Budget price project generator</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li ><a href="index.html">Home</a></li>
+            <li class="active" ><a href="budget.html">Budget you next project now</a></li>
+            <li ><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+	  <br><br>
+      <div class="starter-template">
+        <h1>Budget price project generator</h1>
+        <p class="lead">
+          
+        </p>
+      </div>
+
+      <p>
+      	If you need some web app or mobile app, let your contact info, and I will contact you soon. 
+        <a href="mailto:camilonosdocs@gmail.com" >Let´s work now</a>
+      </p><br>
+      
+      
+      <p>
+        Please enter the data to create the budget of your next freelance project
+      </p>
+
+      <form>
+      <div class="form-group">
+        <label for="email">Name of the client</label>
+        <input type="text" class="form-control" id="name_client">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Name of the project or service</label>
+        <input type="text" class="form-control" id="name_service">
+      </div>
+      
+
+      <button type="submit" id="btn_export_doc" class="btn btn-primary">Genere doc</button>
+    </form>
+
+    <br>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">Budget info</div>
+      <div class="panel-body">
+        
+        <div id="content_budget">
+          
+          <table class="table table-bordered">
+            <tr>
+              <td>
+                Name client:
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="name_client_value"></span>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+      </div>
+    </div>
+
+      
+      <hr/>
+
+    </div><!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="static/js/FileSaver.js"></script>
+    <script type="text/javascript" src="static/js/jquery.word.js"></script>
+    <script type="text/javascript" src="static/js/lib.js"></script>
+    <script type="text/javascript">
+     
+
+    </script>
+  </body>
+</html>
